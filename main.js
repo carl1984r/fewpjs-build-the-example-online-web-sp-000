@@ -4,7 +4,7 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
- document.querySelector('div#modal').setAttribute('class', "hidden");
+  //document.querySelector('div#modal').setAttribute('class', "hidden");
 
  function toggleHeart(heart) {
    if (heart.querySelector('.like-glyph')) { heart = heart.querySelector('.like-glyph') }
